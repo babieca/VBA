@@ -43,7 +43,7 @@ Sub save_FX_rates()
     
     Set sht = ActiveSheet
     
-    tblddbb = "lbv.histccy"
+                tblddbb = "ddbbname.histccy"
     
     lastCol = sht.Cells(1, Columns.Count).End(xlToLeft).Column
     lastRow = sht.Cells(sht.Rows.Count, "A").End(xlUp).Row
